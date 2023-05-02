@@ -2,64 +2,233 @@
     "chefs": [
       {
         "id": 1,
-        "name": "Chef A",
-        "image": "https://example.com/chefA.jpg",
+        "name": "Tuhin Ahmed",
+        "image": "https://i.ibb.co/mBJcFSD/pexels-2102934.jpg",
+        "bio": "Tuhin is a classically trained French chef with over 20 years of experience in fine dining restaurants. He specializes in creating elegant and sophisticated dishes that showcase the best of French cuisine.",
         "years_of_experience": 10,
-        "recipes_count": 20,
+        "recipes_count": 10,
         "likes": 100,
         "recipes": [
-          {
-            "id": 1,
-            "name": "Recipe 1",
-            "ingredients": ["Ingredient 1", "Ingredient 2", "Ingredient 3", "Ingredient 4", "Ingredient 5"],
-            "cooking_method": "Method 1",
-            "rating": 4.5
-          },
-          {
-            "id": 2,
-            "name": "Recipe 2",
-            "ingredients": ["Ingredient 6", "Ingredient 7", "Ingredient 8", "Ingredient 9", "Ingredient 10"],
-            "cooking_method": "Method 2",
-            "rating": 4.2
-          },
-          {
-            "id": 3,
-            "name": "Recipe 3",
-            "ingredients": ["Ingredient 11", "Ingredient 12", "Ingredient 13", "Ingredient 14", "Ingredient 15"],
-            "cooking_method": "Method 3",
-            "rating": 4.8
-          }
+            {
+                "id": 1,
+                "name": "Shorshe Ilish",
+                "ingredients": ["Hilsa fish", "Mustard paste", "Turmeric powder", "Green chili", "Salt"],
+                "cooking_method": "1. Marinate fish with turmeric powder and salt. 2. Fry fish in oil until golden brown. 3. In a separate pan, add mustard paste, green chili, and water. Cook for a few minutes. 4. Add fried fish to the pan and cook for a few more minutes. Serve hot with rice.",
+                "rating": 4.8,
+                "image": "https://i.ibb.co/FXZLzxt/Pohela-Boishakh-2021-The-Spice-Odyssey-50.jpg"
+              }
+              ,
+              {
+                "id": 2,
+                "name": "Chingri Malai Curry",
+                "ingredients": ["Prawns", "Coconut milk", "Ginger paste", "Garlic paste", "Green chili","Salt"],
+                "cooking_method": "1. Marinate prawns with turmeric powder and salt. 2. Fry prawns in oil until golden brown. 3. In a separate pan, add ginger paste, garlic paste, green chili, cumin powder, coriander powder, and water. Cook for a few minutes. 4. Add coconut milk to the pan and cook for a few more minutes. 5. Add fried prawns to the pan and cook for a few more minutes. Serve hot with rice.",
+                "rating": 4.6,
+                "image": "https://i.ibb.co/0jdp1bp/Screenshot-2023-05-02-234926.png"
+              },
+              {
+                "id": 3,
+                "name": "Mishti Doi",
+                "ingredients": ["Milk", "Yogurt", "Sugar","Water","salt"],
+                "cooking_method": "1. Boil milk and reduce it to half. 2. Add sugar to the milk and let it dissolve. 3. Let the milk cool down. 4. Add yogurt to the milk and mix well. 5. Pour the mixture into earthen pots and keep them in a warm place for 6-8 hours. 6. Refrigerate for a few hours before serving.",
+                "rating": 4.7,
+                "image": "https://i.ibb.co/Gt2xVKv/Mishti-Doi.jpg"
+              }
         ]
       },
       {
         "id": 2,
-        "name": "Chef B",
-        "image": "https://example.com/chefB.jpg",
+        "name": "Chef Mahin",
+        "image": "https://i.ibb.co/x8Z0FNg/pexels-sides-imagery-3351927.jpg",
+        "bio": "Maria is a Mexican-American chef who grew up in a family of cooks and has a deep passion for the vibrant and complex flavors of Mexican cuisine. She is known for her creative twists on traditional dishes, blending Mexican and American flavors to create dishes that are both familiar and exciting.",
+
         "years_of_experience": 8,
         "recipes_count": 15,
         "likes": 80,
         "recipes": [
-          {
-            "id": 4,
-            "name": "Recipe 4",
-            "ingredients": ["Ingredient 16", "Ingredient 17", "Ingredient 18", "Ingredient 19", "Ingredient 20"],
-            "cooking_method": "Method 4",
-            "rating": 4.4
-          },
-          {
-            "id": 5,
-            "name": "Recipe 5",
-            "ingredients": ["Ingredient 21", "Ingredient 22", "Ingredient 23", "Ingredient 24", "Ingredient 25"],
-            "cooking_method": "Method 5",
-            "rating": 4.6
-          },
-          {
-            "id": 6,
-            "name": "Recipe 6",
-            "ingredients": ["Ingredient 26", "Ingredient 27", "Ingredient 28", "Ingredient 29", "Ingredient 30"],
-            "cooking_method": "Method 6",
-            "rating": 4.3
-          }
+            {
+                "id": 4,
+                "name": "Luchi",
+                "ingredients": ["Wheat flour", "Oil", "Salt", "Water"],
+                "cooking_method": "1. In a bowl, mix wheat flour, salt, and oil. 2. Add water slowly and knead the dough. 3. Cover the dough and let it rest for 20 minutes. 4. Make small balls out of the dough. 5. Roll out each ball into a small circle. 6. Heat oil in a pan and deep fry the circles until puffed and golden brown. 7. Serve hot with any side dish of your choice.",
+                "rating": 4.5,
+                "image": "https://i.ibb.co/W2Ww3TS/Luchi.jpg"
+              }
+              ,
+              {
+                "id": 5,
+                "name": "Aloo Posto",
+                "ingredients": ["Potatoes", "Poppy seeds", "Green chili", "Turmeric powder", "Salt", "Mustard oil"],
+                "cooking_method": "1. Cut potatoes into small cubes. 2. Dry roast poppy seeds and grind them into a fine powder. 3. Heat mustard oil in a pan and add green chili. 4. Add potatoes, turmeric powder, and salt. 5. Add poppy seed powder and a little water. 6. Cook on medium heat until potatoes are soft and the gravy thickens. 7. Serve hot with rice.",
+                "rating": 4.7,
+                "image": "https://i.ibb.co/4MrkSXt/Bengali-Aloo-Posto-2-1.jpg"
+              }
+              ,
+              {
+                "id": 6,
+                "name": "Cholar Dal",
+                "ingredients": ["Split Bengal gram", "Coconut", "Green chili", "Cumin seeds", "Turmeric powder", "Salt", "Sugar", "Ghee"],
+                "cooking_method": "1. Soak split Bengal gram for 30 minutes. 2. Pressure cook the dal with turmeric powder and salt until soft. 3. In a separate pan, heat ghee and add cumin seeds. 4. Add grated coconut, green chili, and a little water. 5. Cook for a few minutes. 6. Add the cooked dal to the pan and mix well. 7. Add sugar and a little water. 8. Cook on medium heat until the gravy thickens. 9. Serve hot with luchi or rice.",
+                "rating": 4.6,
+                "image": "https://i.ibb.co/PgT2dtn/chana-dal-4.webp"
+              }
+              
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Chef John Bangla",
+        "image": "https://i.ibb.co/X5tKVqN/pexels-cottonbro-studio-4253298.jpg",
+        "bio": "Hiro is a Japanese chef who specializes in traditional Japanese cuisine, with a particular focus on sushi and sashimi. He has trained under some of the most renowned sushi chefs in Japan and is known for his meticulous attention to detail and dedication to quality.",
+
+        "years_of_experience": 8,
+        "recipes_count": 15,
+        "likes": 80,
+        "recipes": [
+            {
+                "id": 4,
+                "name": "Luchi",
+                "ingredients": ["Wheat flour", "Oil", "Salt", "Water"],
+                "cooking_method": "1. In a bowl, mix wheat flour, salt, and oil. 2. Add water slowly and knead the dough. 3. Cover the dough and let it rest for 20 minutes. 4. Make small balls out of the dough. 5. Roll out each ball into a small circle. 6. Heat oil in a pan and deep fry the circles until puffed and golden brown. 7. Serve hot with any side dish of your choice.",
+                "rating": 4.5,
+                "image": "https://i.ibb.co/W2Ww3TS/Luchi.jpg"
+              }
+              ,
+              {
+                "id": 5,
+                "name": "Aloo Posto",
+                "ingredients": ["Potatoes", "Poppy seeds", "Green chili", "Turmeric powder", "Salt", "Mustard oil"],
+                "cooking_method": "1. Cut potatoes into small cubes. 2. Dry roast poppy seeds and grind them into a fine powder. 3. Heat mustard oil in a pan and add green chili. 4. Add potatoes, turmeric powder, and salt. 5. Add poppy seed powder and a little water. 6. Cook on medium heat until potatoes are soft and the gravy thickens. 7. Serve hot with rice.",
+                "rating": 4.7,
+                "image": "https://i.ibb.co/4MrkSXt/Bengali-Aloo-Posto-2-1.jpg"
+              }
+              ,
+              {
+                "id": 6,
+                "name": "Cholar Dal",
+                "ingredients": ["Split Bengal gram", "Coconut", "Green chili", "Cumin seeds", "Turmeric powder", "Salt", "Sugar", "Ghee"],
+                "cooking_method": "1. Soak split Bengal gram for 30 minutes. 2. Pressure cook the dal with turmeric powder and salt until soft. 3. In a separate pan, heat ghee and add cumin seeds. 4. Add grated coconut, green chili, and a little water. 5. Cook for a few minutes. 6. Add the cooked dal to the pan and mix well. 7. Add sugar and a little water. 8. Cook on medium heat until the gravy thickens. 9. Serve hot with luchi or rice.",
+                "rating": 4.6,
+                "image": "https://i.ibb.co/PgT2dtn/chana-dal-4.webp"
+              }
+              
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Chef Alu ",
+        "image": "https://i.ibb.co/qYxxzJS/pexels-cottonbro-studio-4252137.jpg",
+        "bio": "Leila is a Lebanese chef who grew up in Beirut and has a deep love for the rich and complex flavors of Middle Eastern cuisine. She is known for her bold and flavorful dishes, blending spices and herbs to create dishes that are both comforting and exciting.",
+
+        "years_of_experience": 8,
+        "recipes_count": 15,
+        "likes": 80,
+        "recipes": [
+            {
+                "id": 4,
+                "name": "Luchi",
+                "ingredients": ["Wheat flour", "Oil", "Salt", "Water"],
+                "cooking_method": "1. In a bowl, mix wheat flour, salt, and oil. 2. Add water slowly and knead the dough. 3. Cover the dough and let it rest for 20 minutes. 4. Make small balls out of the dough. 5. Roll out each ball into a small circle. 6. Heat oil in a pan and deep fry the circles until puffed and golden brown. 7. Serve hot with any side dish of your choice.",
+                "rating": 4.5,
+                "image": "https://i.ibb.co/W2Ww3TS/Luchi.jpg"
+              }
+              ,
+              {
+                "id": 5,
+                "name": "Aloo Posto",
+                "ingredients": ["Potatoes", "Poppy seeds", "Green chili", "Turmeric powder", "Salt", "Mustard oil"],
+                "cooking_method": "1. Cut potatoes into small cubes. 2. Dry roast poppy seeds and grind them into a fine powder. 3. Heat mustard oil in a pan and add green chili. 4. Add potatoes, turmeric powder, and salt. 5. Add poppy seed powder and a little water. 6. Cook on medium heat until potatoes are soft and the gravy thickens. 7. Serve hot with rice.",
+                "rating": 4.7,
+                "image": "https://i.ibb.co/4MrkSXt/Bengali-Aloo-Posto-2-1.jpg"
+              }
+              ,
+              {
+                "id": 6,
+                "name": "Cholar Dal",
+                "ingredients": ["Split Bengal gram", "Coconut", "Green chili", "Cumin seeds", "Turmeric powder", "Salt", "Sugar", "Ghee"],
+                "cooking_method": "1. Soak split Bengal gram for 30 minutes. 2. Pressure cook the dal with turmeric powder and salt until soft. 3. In a separate pan, heat ghee and add cumin seeds. 4. Add grated coconut, green chili, and a little water. 5. Cook for a few minutes. 6. Add the cooked dal to the pan and mix well. 7. Add sugar and a little water. 8. Cook on medium heat until the gravy thickens. 9. Serve hot with luchi or rice.",
+                "rating": 4.6,
+                "image": "https://i.ibb.co/PgT2dtn/chana-dal-4.webp"
+              }
+              
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Chef angry Polash",
+        "image": "https://i.ibb.co/RcGZ6fj/pexels-kampus-production-8629122.jpg",
+        "bio": "Marco is an Italian chef who grew up in Tuscany and has a deep respect for the simplicity and elegance of Italian cuisine. He is known for his authentic and rustic dishes, using fresh and locally sourced ingredients to create dishes that capture the essence of Italian cooking.",
+
+        "years_of_experience": 8,
+        "recipes_count": 15,
+        "likes": 80,
+        "recipes": [
+            {
+                "id": 4,
+                "name": "Luchi",
+                "ingredients": ["Wheat flour", "Oil", "Salt", "Water"],
+                "cooking_method": "1. In a bowl, mix wheat flour, salt, and oil. 2. Add water slowly and knead the dough. 3. Cover the dough and let it rest for 20 minutes. 4. Make small balls out of the dough. 5. Roll out each ball into a small circle. 6. Heat oil in a pan and deep fry the circles until puffed and golden brown. 7. Serve hot with any side dish of your choice.",
+                "rating": 4.5,
+                "image": "https://i.ibb.co/W2Ww3TS/Luchi.jpg"
+              }
+              ,
+              {
+                "id": 5,
+                "name": "Aloo Posto",
+                "ingredients": ["Potatoes", "Poppy seeds", "Green chili", "Turmeric powder", "Salt", "Mustard oil"],
+                "cooking_method": "1. Cut potatoes into small cubes. 2. Dry roast poppy seeds and grind them into a fine powder. 3. Heat mustard oil in a pan and add green chili. 4. Add potatoes, turmeric powder, and salt. 5. Add poppy seed powder and a little water. 6. Cook on medium heat until potatoes are soft and the gravy thickens. 7. Serve hot with rice.",
+                "rating": 4.7,
+                "image": "https://i.ibb.co/4MrkSXt/Bengali-Aloo-Posto-2-1.jpg"
+              }
+              ,
+              {
+                "id": 6,
+                "name": "Cholar Dal",
+                "ingredients": ["Split Bengal gram", "Coconut", "Green chili", "Cumin seeds", "Turmeric powder", "Salt", "Sugar", "Ghee"],
+                "cooking_method": "1. Soak split Bengal gram for 30 minutes. 2. Pressure cook the dal with turmeric powder and salt until soft. 3. In a separate pan, heat ghee and add cumin seeds. 4. Add grated coconut, green chili, and a little water. 5. Cook for a few minutes. 6. Add the cooked dal to the pan and mix well. 7. Add sugar and a little water. 8. Cook on medium heat until the gravy thickens. 9. Serve hot with luchi or rice.",
+                "rating": 4.6,
+                "image": "https://i.ibb.co/PgT2dtn/chana-dal-4.webp"
+              }
+              
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Chef Rosun Mahin",
+        "image": "https://i.ibb.co/F8RR312/pexels-mikhail-nilov-8093910.jpg",
+        "bio": "Jin-Soo is a Korean chef who specializes in traditional Korean cuisine, with a particular focus on barbeque and kimchi. He has trained under some of the most renowned Korean chefs and is known for his dedication to preserving the authenticity of Korean cooking while also incorporating modern techniques and flavors.",
+
+        "years_of_experience": 8,
+        "recipes_count": 15,
+        "likes": 80,
+        "recipes": [
+            {
+                "id": 4,
+                "name": "Luchi",
+                "ingredients": ["Wheat flour", "Oil", "Salt", "Water"],
+                "cooking_method": "1. In a bowl, mix wheat flour, salt, and oil. 2. Add water slowly and knead the dough. 3. Cover the dough and let it rest for 20 minutes. 4. Make small balls out of the dough. 5. Roll out each ball into a small circle. 6. Heat oil in a pan and deep fry the circles until puffed and golden brown. 7. Serve hot with any side dish of your choice.",
+                "rating": 4.5,
+                "image": "https://i.ibb.co/W2Ww3TS/Luchi.jpg"
+              }
+              ,
+              {
+                "id": 5,
+                "name": "Aloo Posto",
+                "ingredients": ["Potatoes", "Poppy seeds", "Green chili", "Turmeric powder", "Salt", "Mustard oil"],
+                "cooking_method": "1. Cut potatoes into small cubes. 2. Dry roast poppy seeds and grind them into a fine powder. 3. Heat mustard oil in a pan and add green chili. 4. Add potatoes, turmeric powder, and salt. 5. Add poppy seed powder and a little water. 6. Cook on medium heat until potatoes are soft and the gravy thickens. 7. Serve hot with rice.",
+                "rating": 4.7,
+                "image": "https://i.ibb.co/4MrkSXt/Bengali-Aloo-Posto-2-1.jpg"
+              }
+              ,
+              {
+                "id": 6,
+                "name": "Cholar Dal",
+                "ingredients": ["Split Bengal gram", "Coconut", "Green chili", "Cumin seeds", "Turmeric powder", "Salt", "Sugar", "Ghee"],
+                "cooking_method": "1. Soak split Bengal gram for 30 minutes. 2. Pressure cook the dal with turmeric powder and salt until soft. 3. In a separate pan, heat ghee and add cumin seeds. 4. Add grated coconut, green chili, and a little water. 5. Cook for a few minutes. 6. Add the cooked dal to the pan and mix well. 7. Add sugar and a little water. 8. Cook on medium heat until the gravy thickens. 9. Serve hot with luchi or rice.",
+                "rating": 4.6,
+                "image": "https://i.ibb.co/PgT2dtn/chana-dal-4.webp"
+              }
+              
         ]
       }
     ]
