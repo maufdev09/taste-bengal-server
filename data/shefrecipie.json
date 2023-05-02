@@ -1,0 +1,66 @@
+{
+    "chefs": [
+      {
+        "id": 1,
+        "name": "Chef A",
+        "image": "https://example.com/chefA.jpg",
+        "years_of_experience": 10,
+        "recipes_count": 20,
+        "likes": 100,
+        "recipes": [
+          {
+            "id": 1,
+            "name": "Recipe 1",
+            "ingredients": ["Ingredient 1", "Ingredient 2", "Ingredient 3", "Ingredient 4", "Ingredient 5"],
+            "cooking_method": "Method 1",
+            "rating": 4.5
+          },
+          {
+            "id": 2,
+            "name": "Recipe 2",
+            "ingredients": ["Ingredient 6", "Ingredient 7", "Ingredient 8", "Ingredient 9", "Ingredient 10"],
+            "cooking_method": "Method 2",
+            "rating": 4.2
+          },
+          {
+            "id": 3,
+            "name": "Recipe 3",
+            "ingredients": ["Ingredient 11", "Ingredient 12", "Ingredient 13", "Ingredient 14", "Ingredient 15"],
+            "cooking_method": "Method 3",
+            "rating": 4.8
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Chef B",
+        "image": "https://example.com/chefB.jpg",
+        "years_of_experience": 8,
+        "recipes_count": 15,
+        "likes": 80,
+        "recipes": [
+          {
+            "id": 4,
+            "name": "Recipe 4",
+            "ingredients": ["Ingredient 16", "Ingredient 17", "Ingredient 18", "Ingredient 19", "Ingredient 20"],
+            "cooking_method": "Method 4",
+            "rating": 4.4
+          },
+          {
+            "id": 5,
+            "name": "Recipe 5",
+            "ingredients": ["Ingredient 21", "Ingredient 22", "Ingredient 23", "Ingredient 24", "Ingredient 25"],
+            "cooking_method": "Method 5",
+            "rating": 4.6
+          },
+          {
+            "id": 6,
+            "name": "Recipe 6",
+            "ingredients": ["Ingredient 26", "Ingredient 27", "Ingredient 28", "Ingredient 29", "Ingredient 30"],
+            "cooking_method": "Method 6",
+            "rating": 4.3
+          }
+        ]
+      }
+    ]
+  }  
